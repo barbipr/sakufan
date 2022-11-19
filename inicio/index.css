@@ -1,0 +1,170 @@
+.titulo {
+    color: rgba(246, 8, 198, 0.811);
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 400%;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+}
+
+.subtitulo {
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+.oraciones {
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 150%;
+}
+
+@media(min-width: 576px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+@media (max-width: 991.98px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+@media (max-width: 1199.98px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
+
+@media (max-width: 1399.98px) {
+    body {
+        background-image: url(../imagenes/fondo.png);
+        height: 255px;
+        background-size: cover;
+        background-size: 96rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 5% 5% 15% 5%;
+        padding: auto;
+
+    }
+}
