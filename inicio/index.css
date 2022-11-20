@@ -9,162 +9,140 @@
 .subtitulo {
     color: black;
     font-family: 'Caveat', cursive;
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
 }
 
 .oraciones {
     color: black;
     font-family: 'Indie Flower', cursive;
-    font-size: 150%;
+    font-size: 120%;
 }
 
-@media(min-width: 576px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-    }
+body {
+    background-image: url(../imagenes/fondo.png);
+    margin: 0;
+    height: 255px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 5% 5% 5% 5%;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+/*@media only screen and (min-width: 576px) and (max-width: 1399.98px) {
+.main{
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 5% 5% 5% 5%;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+}*/
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
-@media (min-width: 768px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
+.menu-fijo {
+    background: rgb(246, 166, 219);
+    color: rgb(170, 116, 220);
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 
-    }
+
 }
 
-@media (min-width: 992px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-
-    }
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media (min-width: 1200px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-
-    }
+.menu-fijo a {
+    color: rgb(170, 116, 220);
+    text-decoration: none;
 }
 
-@media (min-width: 1400px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-
-    }
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-@media (max-width: 575.98px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-
-    }
+.navegacion ul li {
+    display: inline-block;
 }
 
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
 
-@media (max-width: 767.98px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-
-    }
 }
 
-@media (max-width: 991.98px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-
-    }
+.navegacion ul li a:hover {
+    background: rgb(216, 188, 242);
 }
 
-@media (max-width: 1199.98px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
-
-    }
+.main {
+    padding-top: 2rem;
 }
 
-@media (max-width: 1399.98px) {
-    body {
-        background-image: url(../imagenes/fondo.png);
-        height: 255px;
-        background-size: cover;
-        background-size: 96rem;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin: 5% 5% 15% 5%;
-        padding: auto;
+.logo {
+    display: flex;
+    align-items: center;
 
-    }
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+input {
+    background: none;
+    border: solid rgb(216, 110, 245) 2px;
+    padding: 5px 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background: rgb(239, 49, 227);
+}
+
+.derechos {
+    text-align: center;
 }
