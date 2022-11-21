@@ -1,0 +1,38 @@
+.titulo {
+    color: rgba(246, 8, 198, 0.811);
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 400%;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+}
+
+.subtitulo {
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 150%;
+    text-align: center;
+}
+
+.oraciones {
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 120%;
+}
+
+body {
+    background-image: url(../imagenes/fondo.png);
+    margin: 0;
+    height: 255px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 5% 5% 5% 5%;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
