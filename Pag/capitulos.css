@@ -37,7 +37,61 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.menu-fijo {
+    background: rgb(246, 166, 219);
+    color: rgb(170, 116, 220);
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-fijo a {
+    color: rgb(170, 116, 220);
+    text-decoration: none;
+}
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+
+}
+
+.navegacion ul li a:hover {
+    background: rgb(216, 188, 242);
+}
+
+.main {
+    padding-top: 2rem;
+}
+
 .logo {
     display: flex;
     align-items: center;
+
 }
