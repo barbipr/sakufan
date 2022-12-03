@@ -1,9 +1,9 @@
 .titulo {
     color: rgba(246, 8, 198, 0.811);
     font-family: 'Fuzzy Bubbles', cursive;
-    font-size: 400%;
+    font-size: 300%;
     text-align: center;
-    margin: 5% 5% 5% 5%;
+    margin: 15% 5% 5% 5%;
 }
 
 .subtitulo {
@@ -29,7 +29,7 @@ body {
     background-attachment: fixed;
     font-size: 1.2rem;
     line-height: 1.6em;
-    margin: 5% 5% 5% 5%;
+    margin: 15% 15% 15% 15%;
     padding: auto;
     display: flex;
     flex-direction: column;
@@ -94,4 +94,42 @@ body {
     display: flex;
     align-items: center;
 
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+input {
+    background: none;
+    border: solid rgb(216, 110, 245) 2px;
+    padding: 5px 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background: rgb(239, 49, 227);
+}
+
+.derechos {
+    text-align: center;
 }
