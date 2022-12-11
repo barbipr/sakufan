@@ -20,22 +20,15 @@
 }
 
 body {
-    background-image: url(../imagenes/fondo.png);
-    margin: 0;
-    height: 255px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    font-size: 1.2rem;
-    line-height: 1.6em;
-    margin: 15% 15% 15% 15%;
+    background-color: rgb(255, 196, 255);
+    margin: 25% 25% 5% 20%;
     padding: auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
 }
+
 
 .container {
     width: 85%;

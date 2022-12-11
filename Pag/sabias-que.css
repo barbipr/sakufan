@@ -4,6 +4,7 @@
     font-size: 300%;
     text-align: center;
     margin: 15% 5% 5% 5%;
+    line-height: 1em;
 }
 
 .subtitulo {
@@ -29,7 +30,8 @@ body {
     background-attachment: fixed;
     font-size: 1.2rem;
     line-height: 1.6em;
-    margin: 15% 15% 15% 15%;
+    margin: 10% 25% 5% 15%;
+    margin-top: 50px;
     padding: auto;
     display: flex;
     flex-direction: column;

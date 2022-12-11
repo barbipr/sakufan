@@ -19,6 +19,7 @@
     font-size: 120%;
 }
 
+@media (min-width: 1000px){
 body {
     background-image: url(./imagenes/fondo.png);
     margin: 0;
@@ -35,6 +36,27 @@ body {
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
+    min-width: 50%;
+}
+}
+@media (min-width: 280px){
+    body{
+    margin: 20px;
+    height: 80px;
+    background-color: pink;
+    font-size: 10px;
+    line-break: auto;
+    margin-top: 110px;
+    min-height: auto;
+    align-items: center;
+}
+}
+@media (min-width: 280px){
+    .pie-de-pag{
+        margin: 0px;
+        height: 0px;
+        justify-content: space-between;       
+    }    
 }
 
 
