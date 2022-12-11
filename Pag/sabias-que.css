@@ -21,7 +21,7 @@
 }
 
 body {
-    background-image: url(../imagenes/fondo.png);
+    background-color: rgb(246, 118, 218);
     margin: 0;
     height: 255px;
     background-size: 100% 100%;
